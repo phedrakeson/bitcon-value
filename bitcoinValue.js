@@ -7,7 +7,7 @@ function bitcoinValue() {
     document.querySelector('[data-buy]').innerText = bitcoinBRL.buy;
     document.querySelector('[data-sell]').innerText = bitcoinBRL.sell;
     document.querySelector('[data-time]').innerText = dateReturn.getHours() + ':' + dateReturn.getMinutes() + ':' + dateReturn.getSeconds();
-    setTimeout(bitcoinValue, 30000)
+    setTimeout(bitcoinValue, 1000)
   })
 }
 
